@@ -1,12 +1,15 @@
-FROGminer Beta Test 
+Frogminer
 
 What is this?
 tl;dr ~ Free CFW for USA, EUR, JPN ~
 
-!tl;dr - This differs from previous iterations of seedminer in that homebrew, instead of System Settings, is used to import/export the dsiware (this eases size restrictions). 
-Also, eshop dsiware is not needed or used this time. Instead, a different dsihax game, flipnote studio JPN v0, is injected into an internal dsi system app.
-This particular v0 of flipnote is needed because all 4 other regions/versions throw an error and kick you back to home menu if it cannot find its
-save file on NAND. System dsiware titles do not have saves and you cannot import a modified system dsiware that has one.
+!tl;dr - This differs from previous iterations of seedminer in the following ways:
+* is completely free
+* uses homebrew (free steelhax) to import/export DS Download Play, an internal SYSTEM dsiware (system settings can't be used to export system dsiware, but homebrew can)
+* DS dlp is free as opposed to the $2 eshop dsiware used in seedminer.
+* the dsihax used to inject DS dlp is a new version of Ugopwn ported to JPN Flipnote Studio v0.
+* this particular region/version is needed because dsiware injected to a system app cannot bring its own save - and other regions/versions error when its save cannot be found.
+* considering the above save limitation, Ugopwn can also conveniently load a payload from the sd card, another necessary feature for this to work.
 
 Instructions:
 https://jisagi.github.io/FrogminerGuide/

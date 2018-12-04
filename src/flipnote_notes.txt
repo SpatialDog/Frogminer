@@ -31,7 +31,6 @@ JPN0
 02116C70
 026E56E0
 -46A8A1 = FFB9575F
-frame_ram_offset=struct.pack("<i", -0x46A8A1)
 
 Additional notes:
 

@@ -10,17 +10,17 @@ It was a lot messier than this at one point.
 USA
 0217AE70             70 AE 17 02
 02829A20
--5AEBE1 = ‭FFA5141F‬   1F 14 A5 FF
+-5AEBE1 = FFA5141F   1F 14 A5 FF
 
 EUR
 021B00D0             D0 00 1B 02
 028AAE40
--630001 = ‭FF9CFFFF‬   FF FF 9C FF
+-630001 = FF9CFFFF   FF FF 9C FF
 
 JPN2
 0213AFB0             B0 AF 13 02
 02843920
--5C8AE1 = ‭FFA3751F‬   1F 75 A3 FF
+-5C8AE1 = FFA3751F   1F 75 A3 FF
 
 JPN1
 0216C730
@@ -30,7 +30,8 @@ JPN1
 JPN0
 02116C70
 026E56E0
--‭46A8A1‬ = FFB9575F
+-46A8A1 = FFB9575F
+frame_ram_offset=struct.pack("<i", -0x46A8A1)
 
 Additional notes:
 
